@@ -6,14 +6,6 @@ A full-stack AI-powered fraud detection system with a live analyst dashboard, Py
 - Frontend: [sentinel-fraud-detection.vercel.app](https://sentinel-fraud-detection.vercel.app)
 - Backend: [sentinel-fraud-detection.onrender.com](https://sentinel-fraud-detection.onrender.com)
 
----
-
-## Screenshot
-
-> Live transaction stream with risk scoring, feature impact breakdown, and analyst decision panel.
-
----
-
 ## Features
 
 - **Live Transaction Stream** — auto-generates synthetic transactions every 3 seconds and scores them in real time
