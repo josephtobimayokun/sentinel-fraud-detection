@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 const MERCHANTS = ["Amazon","Walmart","Target","Best Buy","Apple Store","Gas Station","Restaurant","Grocery","Pharmacy","Online Gaming"];
 const CARD_TYPES = ["Visa","Mastercard","Amex","Discover"];
 const COUNTRIES = ["US","CA","GB","DE","FR","AU","JP","BR","IN","MX"];
-const API = "http://localhost:8000";
+const API = "https://sentinel-fraud-detection.onrender.com";
 
 const randId = () => "TXN-" + Math.random().toString(36).slice(2,10).toUpperCase();
 const pick = arr => arr[Math.floor(Math.random() * arr.length)];
