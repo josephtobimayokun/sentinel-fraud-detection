@@ -2,5 +2,4 @@ fastapi
 uvicorn
 numpy
 pydantic
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.2.0+cpu 
+torch --index-url https://download.pytorch.org/whl/cpu 
